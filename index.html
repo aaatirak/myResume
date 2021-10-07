@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<script>
+    var x = 0;
+
+    $(document).ready(function(){
+        $("#aboutme_info").hide();
+    })
+
+    $(document).ready(function(){
+        $("#about").click(function(){
+            if (x == 0){
+                $("#aboutme_info").fadeIn(250);
+                x = 1;
+            }
+            else{
+                $("#aboutme_info").fadeOut(250);
+                x = 0;
+            }
+        });
+    });
+</script>
+<body>
+    <table id="left" style="border-collapse: collapse;">
+        <tr>
+            <td style="background-color: rgb(53, 48, 48); width:325px; padding: 0; margin: 0; align-content: flex-start; vertical-align: top;">
+                <div style="margin-top: 25px; text-align: center;"> 
+                    <img src="source/image1.png" alt="kuya rogen" height="180px" width="180px"> 
+                </div>
+
+                <div style="margin-top: 25px; margin-left: 50px; margin-right: 30px; color: white;">
+                    <button id="about" class="aboutme">
+                    <p style="font-family: 'Lucida Console', 'Courier New', monospace; font-size: 20px; ">ABOUT ME >></p>
+                    </button>
+                    <br><br>
+                    <p>An average student that is capable of doing assigned responsibilities. 
+                    Motivated with over 4 years of broad work experiences. Dedicated and hardworking with internal drive to deliver.</p>
+                    <br>
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                    <br>
+
+                    <p style="font-family: 'Lucida Console', 'Courier New', monospace; font-size: 15px;">WEBSITE & SOCIAL LINKS</p><br>
+                    <p>Facebook:</p>
+                    <a href="https://www.facebook.com/kuya.rogen">facebook.com/kuya.rogen</a>
+                    <br><br>
+                    <p>Instagram:</p>
+                    <a href="https://www.instagram.com/aaatirak">instagram.com/aaatirak</a>
+                    <br><br>
+                    <p>Twitter:</p>
+                    <a href="https://www.twitter.com/aaatirak">twitter.com/aaatirak</a>
+                </div>
+
+                
+            </td>
+            <td id="aboutme_info" style="vertical-align: top;">
+                <table style="border-collapse: collapse;">
+                    <tr>
+                        <td style="width:750px;">
+                            <div style="margin-top: 50px; margin-left: 25px; color: rgb(53, 48, 48);">
+                                <t style="font-family: Audiowide, sans-serif; font-size: 40px;">Rogen Arar</t><br>
+                                <t style="font-family: 'Times New Roman', Times, serif; font-size: 25px;">Information Technology Student</t>
+                            </div>
+                        </td>
+                        <td style="vertical-align: top;">
+                            <div style="margin-top: 65px; margin-left: 25px; color: rgb(53, 48, 48);">
+                                <t><img src="source/Mail-icon.png" height="16px" width="16px"> ararrogen@gmail.com</t><br>
+                                <t><img src="source/Mobile-Phone-icon.png" height="16px" width="16px"> 09095082992</t><br>
+                                <t><img src="source/home-icon.png" height="16px" width="16px"> Brgy. Alegria, Ormoc City, Leyte</t>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <div style="margin-left: 25px; margin-top: 10px;">
+                    <hr style="height:2px; border-width:0; color:rgb(53, 48, 48); background-color:rgb(53, 48, 48);">
+                    <br>
+                    <t style="font-family: 'Lucida Console', 'Courier New', monospace; font-size: 25px;">WORK EXPERIENCE</t>
+                </div>
+                <table style="margin-top: 50px; border-collapse: collapse;">
+                    <tr style="padding: 0; margin: 0;">
+                        <td style="width: 275px; ">
+                            <div style="margin-left: 25px;">
+                                <t style="font-weight: bold; font-size: 20px;">AMBAG E-SPORTS</t><br>
+                                <t style="font-size: 18px;">Ormoc City</t><br>
+                                <t style="font-size: 18px;">2019 - Present</t>
+                            </div>
+                        </td>
+                        <td style="align-content: flex-start; vertical-align: top; width: 750px;">
+                            <t style="font-size: 20px;">Graphic Designer / Shoutcaster</t><br>
+                            <t style="font-size: 15px;">Have a decent knowledge of Graphic Designing using the latest software
+                            including Adobe Photoshop. Also is knowledgeable with the latest games specifically in MOBA Genre 
+                            to give commentary in its gameplay.</t><br>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0;">
+                        <td>
+                            <br>
+                            <div style="margin-left: 25px;">
+                                <t style="font-weight: bold; font-size: 20px;">LGU - ORMOC</t><br>
+                                <t style="font-size: 18px;">Ormoc City</t><br>
+                                <t style="font-size: 18px;">2019 - 2020</t>
+                            </div>
+                        </td>
+                        <td style="align-content: flex-start; vertical-align: top; width: 750px;">
+                            <br>
+                            <t style="font-size: 20px;">Encoder / Assistant</t><br>
+                            <t style="font-size: 15px;">Have a decent knowledge of Office Application and works without much
+                            supervision and is also able to work under pressure.</t><br>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0;">
+                        <td>
+                            <div style="margin-left: 25px; margin-top: 25px;">
+                                <t style="font-weight: bold; font-size: 20px;">JOLLIBEE</t><br>
+                                <t style="font-size: 18px;">Ormoc City</t><br>
+                                <t style="font-size: 18px;">2018 - 2019</t>
+                            </div>
+                        </td>
+                        <td style="align-content: flex-start; vertical-align: top; width: 750px;">
+                            <br>
+                            <t style="font-size: 20px;">Service Crew</t><br>
+                            <t style="font-size: 15px;">Able to work under pressure and able to execute every responsibilities
+                            without supervision.</t><br>
+                        </td>
+                    </tr>
+                    <tr style="padding: 0; margin: 0;">
+                        <td>
+                            <div style="margin-left: 25px; margin-top: 25px;">
+                                <t style="font-weight: bold; font-size: 20px;">LGU - ORMOC</t><br>
+                                <t style="font-size: 18px;">Ormoc City</t><br>
+                                <t style="font-size: 18px;">2014 - 2018</t>
+                            </div>
+                        </td>
+                        <td style="align-content: flex-start; vertical-align: top; width: 750px;">
+                            <br>
+                            <t style="font-size: 20px;">Office Assistant</t><br>
+                            <t style="font-size: 15px;">Have a decent knowledge of Office Application and works without much
+                                supervision and is also able to work under pressure.</t><br>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr >
+    </table>
+    
+
+    <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('left').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+</body>
+</html>
